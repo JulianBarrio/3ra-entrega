@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "header header header"
+        "section1 section1 section1"
+        "section2 section2 section2"
+        "footer footer footer";
+}
+
+@import'./variables/colores-tipografia';
+@import './variables/extend';
+@import'./variables/mixins';
+
+@import './secciones/header';
+@import './secciones/seccion1-2';
+@import './secciones/footer';
+@import './secciones/clientes';
+@import './secciones/contacto';
+@import './secciones/compras';
+@import './secciones/novedades';

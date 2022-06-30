@@ -1,0 +1,169 @@
+/* ------HEADER------ */
+
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #10002B;
+    background: radial-gradient(circle, #5533d2 9%, #d294e9 83%);
+
+    div {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+
+        a img {
+            margin-top: 30px;
+            transition: all 0.1s;
+
+            &:hover {
+                transform: scale(1.2);
+
+            }
+
+        }
+
+        h1 {
+            font-size: 40px;
+            padding-top: 30px;
+            margin: 0px;
+
+            span {
+                color: red;
+                background-color: black;
+                border: dotted red;
+                border-radius: 0 25px;
+                margin: 25px;
+                padding: 5px;
+                display: inline-block;
+                font-family: $letraTitulo;
+                transform: skew(-3deg);
+            }
+
+        }
+
+
+    }
+
+    nav ul {
+
+        width: 100%;
+        list-style: none;
+        background: $fondoNav;
+        margin: auto;
+        text-align: center;
+
+        li {
+            display: inline-block;
+            text-align: center;
+
+            a {
+                color: white;
+                text-decoration: none;
+                padding: 1rem;
+                display: block;
+                width: 200px;
+                font-size: 1.4rem;
+                font-family: $letraTitulo;
+
+                &:hover {
+                    color: #CE7D35;
+                    transition: all .2s;
+
+                }
+
+            }
+
+        }
+
+
+
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+
+        flex-direction: column;
+        margin: -10px;
+
+        div img {
+            margin: 0;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul {
+            margin: auto;
+
+            li a {
+                width: 170px;
+
+
+            }
+        }
+    }
+}
+
+@media (max-width: 769px) {
+    .header {
+        div {
+            margin-bottom: 1rem;
+
+            img {
+                margin: 0;
+            }
+
+            h1 {
+                margin: 0;
+
+            }
+
+        }
+
+        nav ul {
+            width: 100%;
+            margin: 0;
+
+            li a {
+                width: 100px;
+
+
+            }
+        }
+    }
+}
+
+@media (max-width: 376px) {
+    .header {
+        padding-bottom: 10px;
+
+        span {
+            font-size: 2rem;
+
+        }
+
+        nav ul {
+            padding: 0;
+            margin: 0;
+
+            li {
+                margin: 0;
+                padding: 0;
+
+                a {
+                    font-size: 14px;
+                    padding: 3px;
+                    width: 200px;
+                }
+            }
+
+        }
+    }
+
+}

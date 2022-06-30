@@ -1,0 +1,26 @@
+/* --- NOVEDADES----- */
+
+
+.novedades {
+    @extend %estiloTitulo;
+}
+
+.marcas {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+li {
+    border: solid 2px black;
+    padding: 10px;
+    margin: -5px;
+    margin-bottom: 140px;
+    transition: all 400ms ease-out;
+    &:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        @include imagenes(-1%);
+    }
+}
+
+}
+

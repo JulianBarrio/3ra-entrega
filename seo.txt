@@ -1,0 +1,27 @@
+en el head puse un comentario en keywords y descripcion
+el h1 yo lo habia utilizado en la marca en el header
+
+1 agregue keywords en todas los html, en algunos no sabia bien y reutilice los del index
+
+index
+"jbsneakers zapatilla, zapatillas, sneakers, calzado"
+
+clientes
+"clientes, zapatillas, calzados, colecciones zapatilla"
+
+novedades
+"adidas, nike, puma, new balance, zapatilla, zapatillas "
+
+contacto
+"jbsneakers, zapatillas, calzados, mail, telefono"
+
+compras
+"jordan, air force, dunk sb, air max, yezzy "
+
+2 en el titulo de cada html le puse el nombre de la pagina "JBsneakers" mas el nombre de su respectiva seccion
+
+3 puse la descripcion en cada html
+
+4 agrupe las paginas en una carpeta
+
+

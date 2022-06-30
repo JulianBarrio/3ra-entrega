@@ -1,0 +1,54 @@
+/*  ----- FOOTER------- */
+
+
+.footer {
+    grid-area: footer;
+    background-color: #E0AAFF;
+    background-image: linear-gradient(to bottom, #9D4EDD, #E0AAFF);
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-between;
+
+    .contacto {
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+
+        a {
+            color: black;
+        }
+
+        i {
+            font-size: 0.8rem;
+            background-color: transparent;
+            color: black;
+            border: transparent;
+            margin: 0;
+        }
+
+    }
+
+    i {
+        color: #fff;
+        padding: 0.5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        border: #fff 2px solid;
+        border-radius: 50px;
+        background-color: black;
+
+        &:hover {
+            background-color: grey;
+        }
+    }
+}
+
+@media (max-width: 376px) {
+    .footer {
+        flex-direction: column-reverse;
+
+        .redes {
+            text-align: center;
+        }
+    }
+}

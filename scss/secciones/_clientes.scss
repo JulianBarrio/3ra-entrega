@@ -1,0 +1,30 @@
+/* ------ CLIENTES --------- */
+
+.galeria img {
+
+    max-width: 400px;
+
+
+
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-around;
+    img {
+        max-width: 400px;
+        padding: 10px;
+        border-radius: 50px;
+        &:hover {
+    
+            @include imagenes(-3%)
+        
+        
+        }
+    }
+}
+
+
+
