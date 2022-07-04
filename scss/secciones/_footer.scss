@@ -37,12 +37,25 @@
         border-radius: 50px;
         background-color: black;
 
-        &:hover {
-            background-color: grey;
-        }
+       
+        
     }
 }
-
+.fa-facebook:hover{
+    color: rgb(31, 104, 213);
+}
+.fa-twitter:hover{
+    color: #28baba;
+}
+.fa-whatsapp:hover{
+    color: green;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-instagram:hover{
+background:  linear-gradient(175deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
 @media (max-width: 376px) {
     .footer {
         flex-direction: column-reverse;
