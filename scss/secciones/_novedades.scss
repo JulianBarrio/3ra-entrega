@@ -39,6 +39,10 @@
             width: 15rem;
             &:hover {
                 transform: scale(1.2);
+                margin-top: 30px;
+                margin-bottom: 30px;
+                
+                
 
             }
         }
@@ -140,7 +144,7 @@
     .section2 div 
     { img {
         transform: translate(-100px);
-        max-width: 320px;
+        max-width: 450px;
     }       
     }
     .section2 h3 {
@@ -186,12 +190,15 @@
             padding: 8px;
 
         }
+        img {
+            max-width: 375px;
+            transform: translate(30px);
+            
+            
+        }
         
         }
-        .section2 img {
-           margin: auto;
-
-        }
+        
         .section2 p {
             max-width: 300px;
     
