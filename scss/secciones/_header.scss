@@ -44,6 +44,9 @@
                 display: inline-block;
                 font-family: $letraTitulo;
                 transform: skew(-3deg);
+                &:hover {
+                    color: deeppink;
+                }
             }
 
         }

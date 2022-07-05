@@ -5,7 +5,10 @@
 .grilla {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "header header header" "section1 section1 section1" "section2 section2 section2" "footer footer footer"; }
+  grid-template-areas: "header header header"
+ "section1 section1 section1"
+ "section2 section2 section2"
+ "footer footer footer"; }
 
 .formulario h2, .title-cards, .section1 h2 {
   font-size: 40px;
@@ -31,7 +34,7 @@
       max-width: 400px;
       animation-name: moov;
       animation-duration: 5s;
-      animation-iteration-count: infinite;
+      animation-itergation-count: infinite;
       transition: all 0.1s; }
       .header div a img:hover {
         transform: scale(1.2); }
@@ -48,6 +51,8 @@
         display: inline-block;
         font-family: arial;
         transform: skew(-3deg); }
+        .header div h1 span:hover {
+          color: deeppink; }
   .header nav ul {
     width: 100%;
     list-style: none;
