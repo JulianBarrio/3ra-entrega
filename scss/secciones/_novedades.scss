@@ -23,7 +23,8 @@
     p {
         font-size: 20px;
         text-align: center;
-        margin: 1rem;
+        margin: 3rem;
+        padding: 1.5rem;
     }
 
     div {
@@ -36,6 +37,10 @@
             border: grey 2px solid;
             border-radius: 5px;
             width: 15rem;
+            &:hover {
+                transform: scale(1.2);
+
+            }
         }
     }
 
@@ -69,10 +74,7 @@
             transition: all 0.1s;
             max-width: 400px;
 
-            &:hover {
-                transform: scale(1.2);
-
-            }
+            
         }
     }
 

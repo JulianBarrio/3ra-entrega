@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    flex-direction: column;
+
+     h2 {
+        margin-top: 1rem;
+    font-size: 3rem;
+    color: $tituloSection1;
+    text-align: center;
+}
+div {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+
+    img {
+        max-width: 500px;
+        border-radius: 10px ;
+        background-color: black;
+        padding: 10px;
+        margin-bottom: 40px;
+        
+        }
+    
+    span {
+        font-size: 1.5rem;
+        max-width: 500px;
+        text-align: center;
+        margin: 10px;
+    }
+}
+ 
+}
+
+@media (max-width: 769px) {
+    .main div img{ 
+        max-width: 400px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 426px) {
+    .main div {
+        flex-direction: column;
+    }
+    
+    .main   div img {
+        max-width: 350px;
+        margin: auto;
+
+    }
+}
