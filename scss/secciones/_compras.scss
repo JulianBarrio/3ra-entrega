@@ -40,6 +40,9 @@
         margin-bottom: 15px;
         color: black;
     }
+    p {
+        color: black;
+    }
     a {
         display: inline-block;
         padding: 10px;
@@ -71,6 +74,16 @@
     }
 }
 
+@media (max-width: 376px) {
+    .container-card {
+        display: flex;
+        flex-direction: column;
+        .card {
+            max-width: 300px;
+        }
+    }
+    
+}
 
 
 

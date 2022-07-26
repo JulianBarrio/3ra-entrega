@@ -3,11 +3,16 @@
 
 .footer {
     grid-area: footer;
-    background-color: #E0AAFF;
-    background-image: linear-gradient(to bottom, #9D4EDD, #E0AAFF);
-    margin-top: 1px;
+    background-color: #212020;
+    background-image: linear-gradient(to bottom, rgb(26, 25, 25) #1e1d1e);
+    
+    background-repeat: repeat;
+    background-size: 400px;
+    
+    
     display: flex;
     justify-content: space-between;
+    
 
     .contacto {
         font-size: 0.8rem;
@@ -15,13 +20,13 @@
         flex-direction: column;
 
         a {
-            color: black;
+            color: white;
         }
 
         i {
             font-size: 0.8rem;
             background-color: transparent;
-            color: black;
+            color: white;
             border: transparent;
             margin: 0;
         }
@@ -85,4 +90,9 @@ transform: scale(1.1);
     flex-direction: row;
 
 }
+    }
+    @media (max-width: 376px){
+        .footer .contacto{
+            font-size: 12px;
+        }
     }
